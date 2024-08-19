@@ -1,0 +1,19 @@
+@DonationManagementAPI_HostAddress = https://localhost:7277
+
+GET {{DonationManagementAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DonationManagementAPI_HostAddress}}/weatherforecast
+
+###
+
+POST {{DonationManagementAPI_HostAddress}}/api/donor
+Content-Type: application/json
+
+{
+  //Donor
+}
+
+###
