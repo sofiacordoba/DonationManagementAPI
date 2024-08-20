@@ -1,12 +1,12 @@
 # Donation Management API
 
-# Objective:
+# Objective
 The DonationManagementAPI project is designed to manage and facilitate donations and payments within a donation management system. This API provides endpoints for managing donors, pledges, payments, and related entities, allowing for comprehensive tracking and reporting of donation activities.
 
-# Implementation:
+# Implementation
 The API is implemented using ASP.NET Core and follows RESTful principles. It leverages Entity Framework Core for data access, with a MySQL database to store and manage the data. The project includes CRUD operations for donors, pledges, and payments, as well as endpoints for querying and managing related entities. Additionally, it integrates a changelog system to track changes made to the data. Entity filtering is implemented across all controllers to streamline data retrieval and management.
 
-# Features:
+# Features
 Donor Management: Create, update, retrieve, and delete donor information.
 Pledge Management: Create, update, retrieve, and delete pledges. Includes validation to ensure that donors exist before creating pledges.
 Payment Management: Create, update, retrieve, and delete payments. Each payment can be associated with multiple pledges.
@@ -15,7 +15,7 @@ Associations: Retrieve payments associated with a specific pledge and pledges as
 Search Functionality: Filter donors, pledges, and payments by various criteria such as donor ID, amount, and date.
 Error Handling: Proper error responses for non-existent records and other issues.
 
-# Technologies Used:
+# Technologies Used
 ASP.NET Core 8: Framework for building the web API.
 Entity Framework Core: ORM for data access and management.
 MySQL: Database for storing project data.
